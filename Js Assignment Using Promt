@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+
+
+
+
+		<script>
+			let result; 
+			result = prompt("Enter Grade");
+
+			switch(result){
+				case "a":
+				alert("Excellent");
+				prompt(result);
+
+				case "b":
+				alert("Very Good");
+				prompt(result);
+
+				case "c":
+				alert("Good");
+				prompt(result);
+
+				case "d":
+				alert("Pass");
+				prompt(result);
+
+				case "f":
+				alert("Fail");
+				prompt(result);
+
+				case "":
+				alert("Input a grade");
+				prompt(result);
+
+				default:
+				alert("Invalid Grade");
+				prompt(result);
+			}
+		</script>
+	</body>
+</html>
